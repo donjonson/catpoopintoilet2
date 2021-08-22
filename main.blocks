@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=".7dkg**;TIZ=-Dxkf4m)">loopcount</variable></variables><block type="pxt-on-start" id="riL))I!?-lL1![cmDkN2" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="hSQc,sST+?rs9CSn!:rT"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_button_event" id="{;CNA`-Yfn,5/FQhU:f7" x="592" y="101"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_stop_all_sounds" id="]@//8/Dn55DZRPZ-KmG3"/></statement></block><block type="device_button_event" id="@5)j:HxP$RmbV2^]^Iv|" x="197" y="153"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="Vz{C/^z:=CC28#D;gs2H"><field name="VAR" id=".7dkg**;TIZ=-Dxkf4m)">loopcount</field><value name="VALUE"><shadow type="math_number" id="lMJ1H=Xs@lv@yZ.cGS(9"><field name="NUM">0</field></shadow></value><next><block type="controls_repeat_ext" id="0GCf$~v{5*gs5nyu=Q2o"><value name="TIMES"><shadow type="math_whole_number" id="=G0D-_rH5@/5Q$CF;T`_"><field name="NUM">100</field></shadow></value><statement name="DO"><block type="SoundExpression_play" id="yATiI4k_e3I5{0$r9Dnp"><field name="this">soundExpression.sad</field><next><block type="variables_change" id="h|(f#)c+|(-:_DkS;d`9"><field name="VAR" id=".7dkg**;TIZ=-Dxkf4m)">loopcount</field><value name="VALUE"><shadow type="math_number" id="D2+C:%4$TTWKNnS+Qn4h"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="Ox{h[Z~6Qry)MT[/2U!?"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . # # 
+        # # # # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="PI@mk(dSI72Dn1`.O@^2"><field name="LEDS">`
+        . . . . . 
+        . . . # # 
+        # . . . # 
+        . # # # # 
+        . . # . #
+        `</field><next><block type="device_clear_display" id="gINE/mJnO81a-O|lbse`"><next><block type="device_print_message" id="kvkI/I`[lvhsZ;5v]59B"><value name="text"><shadow type="text" id="`:1c+DP.aCAi#Uz~w#z("><field name="TEXT">POOP</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block></xml>
